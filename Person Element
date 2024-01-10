@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<div class="PeopleViewerOptions">
+    <Button>Timeline</Button>
+    <button>Tasks</button>
+    <button>Notes</button>
+    <button>Files</button>
+    <button>Goals</button>
+</div>
