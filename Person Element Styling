@@ -1,0 +1,20 @@
+.PersonViewerOptionButton {
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.PersonViewerOptionButton:hover,
+.PersonViewerOptionButton:focus {
+    color: blue;
+    outline: none;
+}
+
+.PersonViewerOptionButton:active {
+    color: blue;
+}
