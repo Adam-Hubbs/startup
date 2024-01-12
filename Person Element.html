@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="Person Element Styling.css">
+        <script src="Person Element.js"></script>
+    </head>
+
+    <body>
+        <div class="PersonView">
+            <div class="GeneralInformation">
+                <img class="PersonImage" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar">
+                <p class="PersonName">Name</p>
+                <p class="PersonPhone">Phone</p>
+                <p class="PersonEmail">Email</p>
+                <p class="PersonAddress">Address</p>
+                <p class="PersonCompany">Company</p>
+            </div>
+            <div class="PersonViewerOptions">
+                <div class="PeopleViewerOptionsHeader">
+                    <Button class="PersonViewerOptionButton" id="Timeline"
+                        onclick="showSection('TimelineContent')">Timeline</Button>
+                    <button class="PersonViewerOptionButton" id="Tasks"
+                        onclick="showSection('TasksContent')">Tasks</button>
+                    <button class="PersonViewerOptionButton" id="Notes"
+                        onclick="showSection('NotesContent')">Notes</button>
+                    <button class="PersonViewerOptionButton" id="Files"
+                        onclick="showSection('FilesContent')">Files</button>
+                    <button class="PersonViewerOptionButton" id="Goals"
+                        onclick="showSection('GoalsContent')">Goals</button>
+                </div>
+                <!-- Timeline -->
+                <div class="arrow TimelineContent">
+                    <div class="PeopleViewerContent">
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/23</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 1</h4>
+                                    <button class="TimelineEventEditButton EditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 1</p>
+                                <div class="DocumentChipArea">
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                    <div class="DocumentChip">
+                                        <span class="material-symbols-outlined DocumentIcon">article</span>
+                                        <p class="DocumentChipText">Document 1</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/21</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 2</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 2</p>
+                            </div>
+                        </div>
+
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/17</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 3</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Timeline -->
+
+                <!-- Tasks -->
+                <div class="arrow TasksContent">
+                    <div class="PeopleViewerContent">
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/23</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 1</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 1</p>
+                                <md-chip-set>
+                                    <md-assist-chip label="Document 1">
+                                        <md-icon slot="icon">calendar</md-icon>
+                                    </md-assist-chip>
+                                    <md-assist-chip label="Document 2">
+                                        <md-icon slot="icon">map</md-icon>
+                                    </md-assist-chip>
+                                </md-chip-set>
+                            </div>
+                        </div>
+
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/21</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 2</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 2</p>
+                            </div>
+                        </div>
+
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/17</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 3</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tasks -->
+
+
+                <!-- Notes -->
+                <div class="arrow NotesContent">
+                    <div class="PeopleViewerContent">
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/23</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 1</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 1</p>
+                                <md-chip-set>
+                                    <md-assist-chip label="Document 1">
+                                        <md-icon slot="icon">calendar</md-icon>
+                                    </md-assist-chip>
+                                    <md-assist-chip label="Document 2">
+                                        <md-icon slot="icon">map</md-icon>
+                                    </md-assist-chip>
+                                </md-chip-set>
+                            </div>
+                        </div>
+
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/21</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 2</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 2</p>
+                            </div>
+                        </div>
+
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/17</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 3</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Notes -->
+
+
+                <!-- Files -->
+                <div class="arrow FilesContent">
+                    <div class="PeopleViewerContent">
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/23</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 1</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 1</p>
+                                <md-chip-set>
+                                    <md-assist-chip label="Document 1">
+                                        <md-icon slot="icon">calendar</md-icon>
+                                    </md-assist-chip>
+                                    <md-assist-chip label="Document 2">
+                                        <md-icon slot="icon">map</md-icon>
+                                    </md-assist-chip>
+                                </md-chip-set>
+                            </div>
+                        </div>
+
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/21</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 2</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 2</p>
+                            </div>
+                        </div>
+
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/17</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 3</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Files -->
+
+                <!-- Goals -->
+                <div class="arrow GoalsContent">
+                    <div class="PeopleViewerContent">
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/23</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 1</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 1</p>
+                                <md-chip-set>
+                                    <md-assist-chip label="Document 1">
+                                        <md-icon slot="icon">calendar</md-icon>
+                                    </md-assist-chip>
+                                    <md-assist-chip label="Document 2">
+                                        <md-icon slot="icon">map</md-icon>
+                                    </md-assist-chip>
+                                </md-chip-set>
+                            </div>
+                        </div>
+
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/21</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 2</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 2</p>
+                            </div>
+                        </div>
+
+                        <div class="Timeline">
+                            <h4 class="TimelineDate">10/17</h4>
+                            <div class="TimelineEvent">
+                                <div class="TimelineEventHeader">
+                                    <h4 class="TimelineEventTitle">Event Title 3</h4>
+                                    <button class="TimelineEventEditButton">
+                                        <span class="material-symbols-outlined more_vert">
+                                            more_vert
+                                        </span>
+                                    </button>
+                                </div>
+                                <p class="TimelineEventDescription">Event Description 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Goals -->
+            </div>
+        </div>
+    </body>
