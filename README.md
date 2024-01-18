@@ -1,8 +1,11 @@
 # startup
 BYU CS 260 Application
 
+Have you ever wanted a better calander system? One that is intelligent, easy to use, and of course... free! This app is for you!
+
+
 ## Overall Description
-I will create a calander and people managment system that can be easily extended to become a task and project managment system. The inspiration behind this project is Area Book Planner (now know as the Preach My Gospel App). It will have a simple and easy to use interface. (And maybe eventually hook into the Google Calender API).
+I will create a calander and people managment system that can be easily extended to become a task and project managment system. The inspiration behind this project is Area Book Planner (now know as the Preach My Gospel App). It will have a simple and easy to use interface. (And maybe eventually hook into the Google Calender API). You will be able to create calender events, modify people, assign them to projects (eventually), and have it all in an easy to use interface. 
 
 
 ## Web Technologies
