@@ -32,20 +32,10 @@ I thought about using Angular and React for my front end framework and decided o
 
 ## Mock Up of UI
 
+![agenda1](https://github.com/Adam-Hubbs/startup/blob/main/1.png)
 
 
+![agenda2](https://github.com/Adam-Hubbs/startup/blob/main/2.png)
 
 
-
-
-
-<img width="320" alt="3" src="https://github.com/Adam-Hubbs/startup/assets/12144148/7989c33c-8b17-471f-ad38-022046ff1810">
-<img width="316" alt="2" src="https://github.com/Adam-Hubbs/startup/assets/12144148/3d49aea2-8714-4224-b084-297bce939c2e">
-<img width="323" alt="1" src="https://github.com/Adam-Hubbs/startup/assets/12144148/863a3c91-2ef5-4ffe-8e45-8a6e0279fb41">
-
-
-
-
-
-
-
+![timeline1](https://github.com/Adam-Hubbs/startup/blob/main/4.png)
