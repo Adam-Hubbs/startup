@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="toolbar.css">
+        <script src="toolbar.js"></script>
+    </head>
+
+    <body>
+        <!-- Menu Sidear -->
+        <div id="sidebar" class="closed">
+            <div class="sidebar-header sidebar-item" onclick="toggleSidebar()">
+                <span class="material-symbols-outlined icon">
+                    menu
+                </span>
+                <p>Menu</p>
+            </div>
+            <div class="sidebar-body">
+                <div class="sidebar-item">
+                    <span class="material-symbols-outlined">
+                        group
+                    </span>
+                    <p>People</p>
+                </div>
+                <div class="sidebar-item">
+                    <span class="material-symbols-outlined">
+                        calendar_month
+                    </span>
+                    <p>Calendar</p>
+                </div>
+                <div class="sidebar-item">
+                    <span class="material-symbols-outlined">
+                        today
+                    </span>
+                    <p>Agenda</p>
+                </div>
+                <div class="sidebar-item">
+                    <span class="material-symbols-outlined">
+                        chat
+                    </span>
+                    <p>Chat</p>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="toolbar">
+                <div id="Home" onclick="toggleSidebar()">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                    <p>Home</p>
+                </div>
+
+                <div>
+                    <span class="material-symbols-outlined icon">
+                        search
+                    </span>
+                    <span class="material-symbols-outlined icon">
+                        settings
+                    </span>
+                    <img class="profile-picture" src="https://www.w3schools.com/howto/img_avatar.png"
+                        alt="Profile Picture">
+                </div>
+            </div>
+
+            <div id="content">
+                <h1>Content</h1>
+                <p>Content here</p>
+            </div>
+        </div>
+    </body>
+
+</html>
